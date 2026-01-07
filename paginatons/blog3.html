@@ -33,7 +33,7 @@ cat
 
     
     <meta name="description"
-      content="YA宿民宿|旅遊資料|澎湖攻略一次看~網美必拍|17|個「澎湖打卡點」|澎湖景點：澎湖奎壁山摩西分海奎壁山，俗稱「龜鼊山」，得名於傳說山下有許多龜鼊（烏龜）。東側有一條岩脈穿越海...|1|2|3 ">
+      content="515會館民宿|部落格|澎湖攻略一次看~網美必拍|17|個「澎湖打卡點」|澎湖景點：澎湖奎壁山摩西分海奎壁山，俗稱「龜鼊山」，得名於傳說山下有許多龜鼊（烏龜）。東側有一條岩脈穿越海...|1|2|3 ">
     <title>YA宿民宿部落格</title>
     <meta property="og:title" content="-YA宿民宿部落格">
     <meta property="og:description"
@@ -959,8 +959,7 @@ cat
       
       
 
-
-       <!-- 下面5行是排序 -->
+      <!-- 下面5行是排序 -->
       
       
 
@@ -968,9 +967,11 @@ cat
       
 
       
+
+
 
       <div class="row">
-        <h1>YA宿民宿 旅遊資料</h1>
+        <h1>515會館民宿 部落格</h1>
         
         
         
@@ -1078,16 +1079,31 @@ cat
 
 
     
+    <li class="page-item ">
+      
     <li class="page-item">
       <a class="page-link" href="/paginatons/blog1">1</a>
     </li>
     
+
+    </li>
+    
+    <li class="page-item ">
+      
     <li class="page-item">
       <a class="page-link" href="/paginatons/blog2">2</a>
     </li>
     
-    <li class="page-item">
-      <a class="page-link" href="/paginatons/blog3">3</a>
+
+    </li>
+    
+    <li class="page-item active">
+      
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">3</span>
+    </li>
+    
+
     </li>
     
 
@@ -1099,6 +1115,52 @@ cat
 
   </ul>
 </nav>
+
+
+
+<style>
+  /* 一般的link */
+  .pagination .page-link {
+    background-color: transparent;
+    /* 不要背景 */
+    color: #A880BE;
+    /* 綠色字 */
+    font-weight: bold;
+    /* 可選，加粗更明顯 */
+    border-color: #e4dee7;
+    /* 也可以改邊框 */
+  }
+
+
+  .pagination .page-link:hover {
+    background-color: #e2c6f1;
+  }
+
+  /* active的link */
+  /* active 頁面：背景為紫色，字白色 */
+  .pagination .page-item.active .page-link {
+    background-color: #402C8B;
+    /* 綠色 */
+    color: #fff;
+    border-color: #402C8B;
+  }
+
+  /* active 頁面在 hover 時仍維持原色 */
+  .pagination .page-item.active .page-link:hover {
+    background-color: #402C8B;
+    color: #fff;
+    border-color: #402C8B;
+  }
+
+
+  /* focus 光圈 */
+  .pagination .page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgba(167, 129, 188, 0.25);
+    /* 綠色光圈 */
+    outline: none;
+    border-color: #A880BE;
+  }
+</style>
 
 
 
